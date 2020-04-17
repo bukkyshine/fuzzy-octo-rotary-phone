@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    background: #fdfbfb;
+    box-decoration-break: slice;
+}
+
+img {
+    height: 300px;
+    width: 290px;
+    border-radius: 5%;
+    
+}
+
+h1{
+    font-size: 5em;
+    text-align: center;
+}
+
+img:hover{
+    
+        transform: scale(1.5);
+        transition: 0.5s;
+        background-color: #fff;
+        opacity: 1;
+}

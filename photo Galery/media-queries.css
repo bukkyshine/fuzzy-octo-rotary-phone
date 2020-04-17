@@ -1,0 +1,22 @@
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 3em;
+    }
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+    img:hover{
+        transition: none;
+        transform: none;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    h1{
+        font-size: 2em;
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
